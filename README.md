@@ -1,24 +1,27 @@
-# ***Aprendiendo a usar Distribuciones Linux basadas en Debian***
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me  -->
+# **Learning to Use Debian-based Linux Distributions**
 
-> *Este repositorio contiene recursos, guías y ejemplos relacionados con el aprendizaje de cómo utilizar distribuciones de Linux basadas en Debian. Si eres nuevo en el mundo de Linux o estás buscando aprender más sobre cómo utilizar distribuciones como Ubuntu, Linux Mint, o Debian mismo, este repositorio puede servirte como punto de partida.*
+> *This repository contains resources, guides, and examples related to learning how to use Debian-based Linux distributions. If you are new to the Linux world or looking to learn more about using distributions like Ubuntu, Linux Mint, or Debian itself, this repository can serve as a starting point.*
 
-## Contenido del Repositorio
+## Repository Contents
 
-*El repositorio está organizado de la siguiente manera:*
+*The repository is organized as follows:*
 
-- **Guías:** *Directorios que contiene guías detalladas paso a paso sobre diferentes aspectos del uso de distribuciones Linux basadas en Debian.*
+- **Guides:** *Directories containing detailed step-by-step guides on different aspects of using Debian-based Linux distributions.*
 
-- **Recursos:** *Directorios que contiene enlaces a recursos externos útiles, como sitios web, blogs y videos, relacionados con Linux y distribuciones basadas en Debian.*
+- **Resources:** *Directories containing links to useful external resources, such as websites, blogs, and videos, related to Linux and Debian-based distributions.*
 
-- **Ejemplos:** *Directorios que contiene ejemplos prácticos, scripts y configuraciones para aprender mediante la práctica.*
+- **Examples:** *Directories containing practical examples, scripts, and configurations for hands-on learning.*
 
-## **Temas Cubiertos**
+## **Covered Topics**
 
-*Algunos de los temas que se cubren en este repositorio incluyen:*
+*Some of the topics covered in this repository include:*
 
-- *Instalación de distribuciones Linux basadas en Debian.*
-- *Introducción a la línea de comandos y uso básico de la terminal.*
-- *Gestión de paquetes con apt, snap entre otros .*
-- *Configuración y personalización del entorno de escritorio.*
-- *Uso de herramientas y aplicaciones específicas de Linux.*
-- *Administración del sistema, incluyendo tareas de mantenimiento y actualización.*
+- *Installation of Debian-based Linux distributions.*
+- *Introduction to the command line and basic terminal usage.*
+- *Package management with apt, snap, among others.*
+- *Configuration and customization of the desktop environment.*
+- *Using Linux-specific tools and applications.*
+- *System administration, including maintenance and update tasks.*
