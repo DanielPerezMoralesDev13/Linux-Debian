@@ -25,3 +25,11 @@
 - *Configuración y personalización del entorno de escritorio.*
 - *Uso de herramientas y aplicaciones específicas de Linux.*
 - *Administración del sistema, incluyendo tareas de mantenimiento y actualización.*
+
+## **Contribuciones**
+
+> ¡Se aceptan contribuciones! Si tienes sugerencias, correcciones o deseas agregar contenido adicional a este proyecto, no dudes en abrir un problema o enviar una solicitud de extracción. Tu ayuda es fundamental para hacer de este proyecto una referencia completa y actualizada para la comunidad de desarrollo.
+
+## **Licencia**
+
+> Este repositorio se publica bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir el contenido de acuerdo con los términos de esta licencia.
