@@ -7,11 +7,11 @@
 ---
 
 - [***Introduccion ala terminal***](#introduccion-ala-terminal)
-- [**Primeros Comandos**](#primeros-comandos)
+- [***Primeros Comandos***](#primeros-comandos)
 
 ---
 
-# **Primeros Comandos**
+# ***Primeros Comandos***
 
 > **Conceptos importantes sobre linux**
 
@@ -47,9 +47,13 @@
 
 1. *<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>t</kbd>*
 
-   - *Abre una nueva ventana de terminal*
+    - *Abre una nueva ventana de terminal*
 
-2. `_whoami_`
+2. *<kbd>Alt</kbd> + <kbd>tab</kbd>*
+
+   - *moverte entre ventana*
+
+3. `_whoami_`
 
    ```bash
    whoami
@@ -59,16 +63,16 @@
 
     - **Traduccion:** *whoami ,quién soy yo?*
 
-3. `_pwd_`
+4. `_pwd_`
 
    ```bash
    pwd
    ```
 
     - *muestra la ruta completa del directorio en el que te encuentras actualmente*
-    - Traduccion: *"Print Working Directory", que se traduce al español como "Imprimir el Directorio de Trabajo*
+    - **Traduccion:** *"Print Working Directory", que se traduce al español como "Imprimir el Directorio de Trabajo*
 
-4. `*clear*`
+5. `*clear*`
 
    ```bash
    clear
@@ -82,7 +86,7 @@
 
       - <kbd>Ctrl</kbd> + <kbd>l</kbd>
 
-5. `_cd <directorio>_`
+6. `_cd <directorio>_`
 
      ```bash
       cd <directorio>
@@ -94,7 +98,7 @@
 
    - **Traduccion:** *Change Directory, Cambiar - Directorio*
 
-6. `_ls_`
+7. `_ls_`
 
    ```bash
    ls ./
@@ -115,7 +119,7 @@
    - *Este comando se utiliza para listar los archivos y directorios en el directorio actual. **Tambien se le puede pasar rutas relativas como absoluta***
    - **Traduccion:** *"List", lista*
 
-7. `_mkdir_`
+8. `_mkdir_`
 
    ```bash
    mkdir directorio/
@@ -153,7 +157,7 @@
 
    - **Traduccion:** *Make Directory, Crear Directorio*
 
-8. `_rmdir_`
+9. `_rmdir_`
 
    ```bash
    rmdir directorio/
@@ -195,49 +199,49 @@
 
    - **Traduccion:** *Remove Directory,Eliminar Directorio*
 
-9. `_touch_`
+10. `_touch_`
 
-   ```bash
-   touch fichero.txt
-   ```
+    ```bash
+    touch fichero.txt
+    ```
 
-   ```bash
-   touch ./Escritorio/carpeta/fichero.txt
-   ```
+    ```bash
+    touch ./Escritorio/carpeta/fichero.txt
+    ```
 
-   ```bash
-   touch ../carpeta/fichero.txt
-   ```
+    ```bash
+    touch ../carpeta/fichero.txt
+    ```
 
-      ```bash
-      touch fichero.txt fichero2.txt
-      ```
+    ```bash
+    touch fichero.txt fichero2.txt
+    ```
 
-      ```bash
-      touch ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/fichero2.txt
-      ```
+    ```bash
+    touch ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/fichero2.txt
+    ```
 
-      ```bash
-      touch ../carpeta/fichero.txt ../carpeta/copia.txt
-      ```
+    ```bash
+    touch ../carpeta/fichero.txt ../carpeta/copia.txt
+    ```
 
-      ```bash
-      touch ./"mi primer programa.py"
-      ```
+    ```bash
+    touch ./"mi primer programa.py"
+    ```
 
-      ```bash
-      touch ./"mi primer programa".py
-      ```
+    ```bash
+    touch ./"mi primer programa".py
+    ```
 
-      ```bash
-      touch ./mi\ primer\ programa.py
-      ```
+    ```bash
+    touch ./mi\ primer\ programa.py
+    ```
 
-   - *El comando touch en Linux se utiliza para cambiar las marcas de tiempo de acceso y modificación de un archivo. También se puede utilizar para crear un nuevo archivo si el archivo especificado no existe. **Tambien se le puede pasar rutas relativas como absoluta***
+    - *El comando touch en Linux se utiliza para cambiar las marcas de tiempo de acceso y modificación de un archivo. También se puede utilizar para crear un nuevo archivo si el archivo especificado no existe. **Tambien se le puede pasar rutas relativas como absoluta***
 
-   - **Se pueden pasar mas de un parametro**
+    - **Se pueden pasar mas de un parametro**
 
-10. `_rm_`
+11. `_rm_`
 
       ```bash
       rm fichero.txt
@@ -283,7 +287,7 @@
 
       - **Traduccion:** *Las siglas rm provienen del inglés y significan "remove", que en español se traduce como "eliminar".*
 
-11. `_cp_`
+12. `_cp_`
 
       ```bash
       cp fichero.txt ./copia.txt
@@ -303,7 +307,7 @@
 
       - **Traduccion:** *cp proviene de las siglas en inglés "copy", que significa "copiar".*
 
-12. `_mv_`
+13. `_mv_`
 
     ```bash
     mv fichero.txt ./copia.txt
@@ -323,7 +327,7 @@
 
     - **Traduccion:** *mv proviene de las siglas en inglés "move", que significa "mover".*
 
-13. `_echo_`
+14. `_echo_`
 
       ```bash
        echo "Este mensaje se imprimira en la terminal"
@@ -337,7 +341,7 @@
 
      - **Traduccion:** *echo es una palabra en inglés que significa "eco", en el sentido de repetir lo que se le da.*
 
-14. `_cat_`
+15. `_cat_`
 
       ```bash
       cat ./fichero.txt
@@ -389,7 +393,7 @@
 
      - **Traduccion:** *cat es una abreviatura de la palabra en inglés "concatenate", que significa "concatenar".*
 
-15. `_man <command>_`
+16. `_man <command>_`
 
       ```bash
       man ls
@@ -399,7 +403,7 @@
 
       - **Traduccion:** *man es un acrónimo de "manual", y man `<comando>` muestra la página del manual para el `<comando>`. Las páginas del manual contienen una descripción detallada del comando, sus opciones y su uso.*
 
-16. `_nano <fichero>_`
+17. `_nano <fichero>_`
 
       ```bash
       nano fichero.txt
@@ -407,7 +411,7 @@
 
       - *nano es un editor de texto en la línea de comandos de Linux. nano archivo.txt abrirá el archivo archivo.txt en el editor nano.*
 
-17. `_grep palabra <fichero>_`
+18. `_grep palabra <fichero>_`
 
       ```bash
       grep lista fichero.txt
@@ -419,7 +423,7 @@
 
     - **Traduccion:** *grep es un acrónimo de "Global Regular Expression Print", Impresión global de expresiones regulares.*
 
-18. `_comando con opciones_`
+19. `_comando con opciones_`
 
      - > *Las opciones en Linux, también conocidas como flags o switches, son argumentos que se utilizan para modificar el comportamiento de un comando. Generalmente se añaden después del nombre del comando y antes de cualquier otro argumento.*
 
