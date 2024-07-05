@@ -446,7 +446,7 @@
 
 > *La BIOS, que significa "Basic Input/Output System" (Sistema Básico de Entrada/Salida), es un software esencial almacenado en un chip de memoria flash en la placa base de una computadora. La BIOS es fundamental para el inicio y la operación básica del sistema antes de que el sistema operativo se cargue desde el disco duro o cualquier otro dispositivo de almacenamiento.*
 
-1. *Para entrar ala bios hay muchas formas. Mantener presionada la tecla <kbd>Shift</kbd> y reiniciar el sistema operativo en windows. O apagar el ordenador y presionar las teclas especiales como <kbd>f11</kbd>,<kbd>f12</kbd> para abrir la bios*
+1. *Para entrar ala bios hay muchas formas. Mantener presionada la tecla ``<kbd>``Shift``</kbd>`` y reiniciar el sistema operativo en windows. O apagar el ordenador y presionar las teclas especiales como ``<kbd>``f11``</kbd>``,``<kbd>``f12``</kbd>`` para abrir la bios*
 
 2. *Cuando entremos ala Bios ir ala opcion modo avanzado y luego ir a **BOOT** y luego colocar la USB de primero para que arranque el sistema operativo desde el usb de primero*
 

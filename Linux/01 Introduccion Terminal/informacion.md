@@ -45,11 +45,11 @@
 
 > ***Comandos***
 
-1. *<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>t</kbd>*
+1. *`<kbd>`Ctrl`</kbd>` + `<kbd>`Alt`</kbd>` + `<kbd>`t`</kbd>`*
 
     - *Abre una nueva ventana de terminal*
 
-2. *<kbd>Alt</kbd> + <kbd>tab</kbd>*
+2. *`<kbd>`Alt`</kbd>` + `<kbd>`tab`</kbd>`*
 
    - *moverte entre ventana*
 
@@ -84,7 +84,7 @@
 
    1. *Otra manera de hacerlo*
 
-      - <kbd>Ctrl</kbd> + <kbd>l</kbd>
+      - `<kbd>`Ctrl`</kbd>` + `<kbd>`l`</kbd>`
 
 6. `_cd <directorio>_`
 

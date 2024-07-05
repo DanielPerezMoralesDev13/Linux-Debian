@@ -5,7 +5,9 @@
 
 > *Este repositorio contiene recursos, guías y ejemplos relacionados con el aprendizaje de cómo utilizar distribuciones de Linux basadas en Debian. Si eres nuevo en el mundo de Linux o estás buscando aprender más sobre cómo utilizar distribuciones como Ubuntu, Linux Mint, o Debian mismo, este repositorio puede servirte como punto de partida.*
 
-## Contenido del Repositorio
+---
+
+## ***Contenido del Repositorio***
 
 *El repositorio está organizado de la siguiente manera:*
 
@@ -26,10 +28,12 @@
 - *Uso de herramientas y aplicaciones específicas de Linux.*
 - *Administración del sistema, incluyendo tareas de mantenimiento y actualización.*
 
-## **Contribuciones**
+---
 
-> ¡Se aceptan contribuciones! Si tienes sugerencias, correcciones o deseas agregar contenido adicional a este proyecto, no dudes en abrir un problema o enviar una solicitud de extracción. Tu ayuda es fundamental para hacer de este proyecto una referencia completa y actualizada para la comunidad de desarrollo.
+## ***Contribuciones***
+
+> *¡Se aceptan contribuciones! Si tienes sugerencias, correcciones o deseas agregar contenido adicional a este proyecto, no dudes en abrir un problema o enviar una solicitud de extracción. Tu ayuda es fundamental para hacer de este proyecto una referencia completa y actualizada para la comunidad de desarrollo.*
 
 ## **Licencia**
 
-> Este repositorio se publica bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir el contenido de acuerdo con los términos de esta licencia.
+> *Este repositorio se publica bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir el contenido de acuerdo con los términos de esta licencia.*
