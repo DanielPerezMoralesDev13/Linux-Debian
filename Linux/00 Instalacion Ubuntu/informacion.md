@@ -26,17 +26,17 @@
   - *Actualizar el sistema*
 
       ```bash
-      sudo apt-get install update
+      sudo apt-get install -y update
       ```
 
      ```bash
-      sudo apt-get install upgrade
+      sudo apt-get install -y upgrade
      ```
 
   - *Instalar VirtualBox*
 
      ```bash
-      sudo apt-get install virtualbox
+      sudo apt-get install -y virtualbox
       ```
 
      ```bash
@@ -339,7 +339,7 @@
    - *Es posible que necesites tener instalados los "build-essential" y los "linux-headers" antes de ejecutar el script de instalación.*
 
       ```bash
-      sudo apt-get install build-essential linux-headers-$(uname -r)
+      sudo apt-get install -y build-essential linux-headers-$(uname -r)
       ```
 
    - *![virtualbox #58](../Images/Img%20Virtualbox/57%20Virtualbox.png "../Images/Img Virtualbox/57 Virtualbox.png")*
@@ -365,13 +365,13 @@
          2. *Actualizamos el sistema*
 
               ```bash
-              sudo apt-get install update
+              sudo apt-get install -y update
               ```
 
          3. *Terminamos de actualizar el sistema*
 
               ```bash
-               sudo apt-get install upgrade
+               sudo apt-get install -y upgrade
                ```
 
       3. *![virtualbox #56](../Images/Img%20Virtualbox/55%20Virtualbox.png "../Images/Img Virtualbox/55 Virtualbox.png")*

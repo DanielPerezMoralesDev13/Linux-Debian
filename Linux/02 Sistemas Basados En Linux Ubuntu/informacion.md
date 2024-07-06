@@ -210,14 +210,14 @@ sudo apt-get upgrade
 sudo add-apt-repository ppa:mmstick76/alacritty
 ```
 
-> *Para instalar un paquete, utilizamos el comando `sudo apt-get install`*
+> *Para instalar un paquete, utilizamos el comando `sudo apt-get install -y`*
 
 ```bash
-sudo apt-get install alacritty
+sudo apt-get install -y alacritty
 ```
 
 ```bash
-sudo apt-get install ./package.deb
+sudo apt-get install -y ./package.deb
 ```
 
 > *Para instalar un paquete con Snap, utilizamos el comando `snap install`. Por ejemplo, para instalar Alacritty:*
@@ -402,7 +402,7 @@ sudo dpkg -i package.deb
 *Para instalar curl en Ubuntu, puedes usar el comando `apt-get install` de la siguiente manera:*
 
 ```bash
-sudo apt-get install curl
+sudo apt-get install -y curl
 ```
 
 ---
