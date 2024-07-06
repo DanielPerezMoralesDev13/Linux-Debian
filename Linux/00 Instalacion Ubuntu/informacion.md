@@ -9,7 +9,7 @@
 - [***Instalacion en Maquina Virtual***](#instalacion-en-maquina-virtual)
 - [***Designaciones de Disco en Linux***](#designaciones-de-disco-en-linux)
 - [***Instalacion del sistema operativo en Hardware***](#instalacion-del-sistema-operativo-en-hardware)
-- [**Si tenemos problema al particionar el disco se puede deber a muchas razones**](#si-tenemos-problema-al-particionar-el-disco-se-puede-deber-a-muchas-razones)
+- [***Si tenemos problema al particionar el disco se puede deber a muchas razones***](#si-tenemos-problema-al-particionar-el-disco-se-puede-deber-a-muchas-razones)
 
 ---
 
@@ -61,11 +61,11 @@
 
       1. > *Ofrece un entorno de escritorio LXQt, diseñado para ser liviano y adecuado para hardware más antiguo o menos potente.*
 
-   4. Ubuntu Cloud:
+   4. **Ubuntu Cloud:**
 
       1. > *Orientado a la implementación y gestión de servicios en la nube, utiliza herramientas como OpenStack.*
 
-   5. Ubuntu IoT:
+   5. **Ubuntu IoT:**
       1. > *Diseñado para dispositivos de Internet de las cosas (IoT), proporciona un entorno de desarrollo para aplicaciones IoT.*
 
 2. **Empresa detrás**
@@ -96,10 +96,10 @@
 1. *Ejecutamos el siguiente comando para abrir virtualbox*
 
      ```bash
-      virtualbox
-      ```
+     virtualbox
+     ```
 
-      1. ![*virtualbox #1*](https://github.com/DanielPerezMoralesDev13/Linux-Debian/blob/master/Linux/Images/PNG/Img_Virtualbox/virtualbox1.png?raw=true "https://github.com/DanielPerezMoralesDev13/Linux-Debian/blob/master/Linux/Images/PNG/Img_Virtualbox/virtualbox1.png?raw=true")
+      1. *![virtualbox #1](../Images/Img%20Virtualbox/00%20Virtualbox.png "../Images/Img%20Virtualbox/00%20Virtualbox.png")*
 
       2. ![*virtualbox #2*](https://github.com/DanielPerezMoralesDev13/Linux-Debian/blob/master/Linux/Images/PNG/Img_Virtualbox/virtualbox2.png?raw=true "https://github.com/DanielPerezMoralesDev13/Linux-Debian/blob/master/Linux/Images/PNG/Img_Virtualbox/virtualbox2.png?raw=true")
 
@@ -452,6 +452,6 @@
 
 ---
 
-# **Si tenemos problema al particionar el disco se puede deber a muchas razones**
+# ***Si tenemos problema al particionar el disco se puede deber a muchas razones***
 
 1. [*Guía partition wizard*](https://www.partitionwizard.com/partitionmanager/cannot-shrink-volume-win10.html "https://www.partitionwizard.com/partitionmanager/cannot-shrink-volume-win10.html")
