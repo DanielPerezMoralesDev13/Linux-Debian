@@ -58,7 +58,7 @@ sudo su
    cat /etc/default/grub
    ```
 
-   - *![Img-Grub #1](../Images/Img%20Grub/00%20img-grub.png "../Images/Img%20Grub/00%20img-grub.png")*
+   - *![Img-Grub #1](../Images/Img%20Grub/00%20img-grub.png "../Images/Img Grub/00 img-grub.png")*
 
 2. *Para editarlo*
 
@@ -66,7 +66,7 @@ sudo su
    sudo nano /etc/default/grub
    ```
 
-   - *![Img-Grub #2](../Images/Img%20Grub/01%20img-grub.png "../Images/Img%20Grub/01%20img-grub.png")*
+   - *![Img-Grub #2](../Images/Img%20Grub/01%20img-grub.png "../Images/Img Grub/01 img-grub.png")*
 
       ```bash
       sudo update-grub
@@ -88,7 +88,7 @@ sudo su
 
    - *La extensión .cfg se utiliza generalmente para ficheros de configuración. Estos ficheros contienen los ajustes para programas y aplicaciones. En este caso, grub.cfg contiene la configuración para el gestor de arranque GRUB.*
 
-3. *![Img-Grub #3](../Images/Img%20Grub/02%20img-grub.png "../Images/Img%20Grub/02%20img-grub.png")*
+3. *![Img-Grub #3](../Images/Img%20Grub/02%20img-grub.png "../Images/Img Grub/02 img-grub.png")*
 
    1. *La línea GRUB_DEFAULT=0 es una configuración en el fichero de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux.*
 
@@ -104,7 +104,7 @@ sudo su
 
       - > *Entonces GRUB_DEFAULT=0 seleccionará "Ubuntu" por defecto.*
 
-4. *![Img-Grub #4](../Images/Img%20Grub/03%20img-grub.png "../Images/Img%20Grub/03%20img-grub.png")*
+4. *![Img-Grub #4](../Images/Img%20Grub/03%20img-grub.png "../Images/Img Grub/03 img-grub.png")*
 
    1. *La línea GRUB_TIMEOUT=10 es una configuración en el fichero de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux.*
 
@@ -136,7 +136,7 @@ sudo su
 
 2. *Otro ejemplo*
 
-   1. *![Img-Grub #5](../Images/Img%20Grub/04%20img-grub.png "../Images/Img%20Grub/04%20img-grub.png")*
+   1. *![Img-Grub #5](../Images/Img%20Grub/04%20img-grub.png "../Images/Img Grub/04 img-grub.png")*
 
 ---
 
@@ -385,15 +385,15 @@ sudo dpkg -i package.deb
 
 2. *Se nos creara un perfil lo seleccionamos y le damos como predeterminado*
 
-   1. *![Theme_Terminal #1](../Images/Img%20Tema%20Terminal/00%20theme-terminal.png "../Images/Img%20Tema%20Terminal/00%20theme-terminal.png")*
+   1. *![Theme_Terminal #1](../Images/Img%20Tema%20Terminal/00%20theme-terminal.png "../Images/Img Tema Terminal/00 theme-terminal.png")*
 
-   2. *![Theme_Terminal #2](../Images/Img%20Tema%20Terminal/01%20theme-terminal.png "../Images/Img%20Tema%20Terminal/01%20theme-terminal.png")*
+   2. *![Theme_Terminal #2](../Images/Img%20Tema%20Terminal/01%20theme-terminal.png "../Images/Img Tema Terminal/01 theme-terminal.png")*
 
 3. *Configurando fuente, transparencia, tamaño*
 
-   1. *![Theme_Terminal #3](../Images/Img%20Tema%20Terminal/02%20theme-terminal.png "../Images/Img%20Tema%20Terminal/02%20theme-terminal.png")*
+   1. *![Theme_Terminal #3](../Images/Img%20Tema%20Terminal/02%20theme-terminal.png "../Images/Img Tema Terminal/02 theme-terminal.png")*
 
-   2. *![Theme_Terminal #4](../Images/Img%20Tema%20Terminal/03%20theme-terminal.png "../Images/Img%20Tema%20Terminal/03%20theme-terminal.png")*
+   2. *![Theme_Terminal #4](../Images/Img%20Tema%20Terminal/03%20theme-terminal.png "../Images/Img Tema Terminal/03 theme-terminal.png")*
 
 > *Instalación de curl en Ubuntu*
 

@@ -27,7 +27,7 @@
 
    2. *script es el nombre del fichero y lo que esta luego del punto es la extension del fichero*
 
-3. ***.** : Representa el directorio actual.*
+3. ***.**: Representa el directorio actual.*
 
 4. ***~**: Representa el directorio home del usuario actual.*
 
