@@ -2,7 +2,7 @@
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me  -->
 
-# ****Learning to Use Debian-based Linux Distributions***
+# ***Learning to Use Debian-based Linux Distributions***
 
 > *This repository contains resources, guides, and examples related to learning how to use Debian-based Linux distributions. If you are new to the Linux world or looking to learn more about using distributions like Ubuntu, Linux Mint, or Debian itself, this repository can serve as a starting point.*
 
