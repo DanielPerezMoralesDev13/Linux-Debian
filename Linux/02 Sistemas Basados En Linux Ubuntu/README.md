@@ -146,9 +146,9 @@ sudo su
 
 1. ***`APT`** (Advanced Package Tool): Herramienta Avanzada de Paquetes. Es una interfaz de línea de comandos para la gestión de paquetes en Ubuntu y otras distribuciones basadas en Debian. APT simplifica el proceso de instalación, actualización y eliminación de software.*
 
-2. ***`dpkg` (Debian Package)**: Paquete Debian. Es el sistema de gestión de paquetes de bajo nivel en Debian y sus derivados, incluyendo Ubuntu. dpkg se utiliza para instalar, eliminar y proporcionar información sobre los paquetes .deb.*
+2. ***`dpkg` (Debian Package):** Paquete Debian. Es el sistema de gestión de paquetes de bajo nivel en Debian y sus derivados, incluyendo Ubuntu. dpkg se utiliza para instalar, eliminar y proporcionar información sobre los paquetes .deb.*
 
-3. ***`Snap`**: Snap es un sistema de gestión de paquetes desarrollado por Canonical, los creadores de Ubuntu. Los paquetes Snap son autocontenidos, lo que significa que incluyen todas las dependencias necesarias para que la aplicación funcione, lo que facilita su instalación y actualización. "Snap" no es un acrónimo, por lo que no tiene una traducción directa ni un significado más allá de ser el nombre del sistema de gestión de paquetes.*
+3. ***`Snap`:** Snap es un sistema de gestión de paquetes desarrollado por Canonical, los creadores de Ubuntu. Los paquetes Snap son autocontenidos, lo que significa que incluyen todas las dependencias necesarias para que la aplicación funcione, lo que facilita su instalación y actualización. "Snap" no es un acrónimo, por lo que no tiene una traducción directa ni un significado más allá de ser el nombre del sistema de gestión de paquetes.*
 
 > *El comando apt list en Ubuntu y otras distribuciones basadas en Debian se utiliza para listar los paquetes disponibles en los repositorios de software configurados en el sistema.*
 
@@ -182,13 +182,13 @@ apt list <nombre_del_paquete>
 
 > *Los comandos sudo apt-get update y sudo apt-get upgrade son comandos fundamentales en Ubuntu y otras distribuciones basadas en Debian para mantener el sistema actualizado.*
 
-1. **`sudo apt-get update`**: *Este comando descarga la lista de paquetes desde los repositorios y "actualiza" la lista de paquetes disponibles y sus versiones, pero no instala ni actualiza ningún paquete.*
+1. **`sudo apt-get update`:** *Este comando descarga la lista de paquetes desde los repositorios y "actualiza" la lista de paquetes disponibles y sus versiones, pero no instala ni actualiza ningún paquete.*
 
    ```bash
    sudo apt-get update
    ```
 
-**`sudo apt-get upgrade`**: *Este comando instala las versiones más recientes de todos los paquetes actualmente instalados en el sistema a partir de las listas de paquetes recuperadas con apt-get update.*
+**`sudo apt-get upgrade`:** *Este comando instala las versiones más recientes de todos los paquetes actualmente instalados en el sistema a partir de las listas de paquetes recuperadas con apt-get update.*
 
 ```bash
 sudo apt-get upgrade
@@ -411,17 +411,17 @@ sudo apt-get install -y curl
 
 > *En linux existen diferentes tipos de permisos para los ficheros y directorios, estos son: **lectura**, **escritura** y **ejecución**. Los tres primeros son para el usuario, los otros tres permisos son para grupos y los ultimos tres permisos son para otros usuario*
 
-1. ***Lectura**: Permite ver el contenido del fichero o directorio.*
+1. ***Lectura:** Permite ver el contenido del fichero o directorio.*
 
-2. ***Escritura**: Permite modificar el contenido del fichero o directorio.*
+2. ***Escritura:** Permite modificar el contenido del fichero o directorio.*
 
-3. ***Ejecución**: Permite ejecutar el fichero o acceder al directorio.*
+3. ***Ejecución:** Permite ejecutar el fichero o acceder al directorio.*
 
-4. ***Orden**: El primero es lectura, el segundo escritura el ultimo. `---------` significa que el ficheros o directorio no tiene ningún permiso establecido para el propietario, el grupo y otros usuarios.*
+4. ***Orden:** El primero es lectura, el segundo escritura el ultimo. `---------` significa que el ficheros o directorio no tiene ningún permiso establecido para el propietario, el grupo y otros usuarios.*
 
 > para ver los permisos de un fichero o directorio, utilizamos el comando `ls -l` o `--format=long`.
 
-1. *Si es un fichero, el primer carácter será una -.*
+1. *Si es un fichero, el primer carácter será una -*
 
    ```bash
    ls -l fichero.py
@@ -433,7 +433,7 @@ sudo apt-get install -y curl
 
       - *Otra manera de hacerlo*
 
-   1. **Output**: `-rw-rw-r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`
+   1. **Output:** `-rw-rw-r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`
 
       1. `-rw-rw-r--`: *Estos son los permisos del ficheros. Se dividen en cuatro partes:*
 
@@ -499,13 +499,13 @@ sudo apt-get install -y curl
 
 > *`chmod [opciones] modo ficheros`*
 
--.*`u` (usuario), `g` (grupo), `o` (otros), `a` (todos): especifica a quién se aplicarán los cambios.*
+-*`u` (usuario), `g` (grupo), `o` (otros), `a` (todos): especifica a quién se aplicarán los cambios.*
 
--.*`+` (añadir permisos), `-` (quitar permisos), `=` (establecer permisos): especifica qué acción se realizará.*
+-*`+` (añadir permisos), `-` (quitar permisos), `=` (establecer permisos): especifica qué acción se realizará.*
 
--.*`r` (lectura), `w` (escritura), `x` (ejecución): especifica qué permisos se cambiarán.*
+-*`r` (lectura), `w` (escritura), `x` (ejecución): especifica qué permisos se cambiarán.*
 
--.*Añadir permisos al usuario*
+-*Añadir permisos al usuario*
 
 ```bash
 chmod u+w fichero.py
@@ -519,7 +519,7 @@ chmod u+r fichero.py
 chmod u+x fichero.py
 ```
 
--. *Añadir permisos al grupo*
+- *Añadir permisos al grupo*
 
 ```bash
 chmod g+w fichero.py
@@ -533,7 +533,7 @@ chmod g+r fichero.py
 chmod g+x fichero.py
 ```
 
--. *Añadir permisos a otros usarios*
+- *Añadir permisos a otros usarios*
 
 ```bash
 chmod o+w fichero.py
@@ -547,7 +547,7 @@ chmod o+r fichero.py
 chmod o+x fichero.py
 ```
 
--. *Quitar permisos al usuario*
+- *Quitar permisos al usuario*
 
 ```bash
 chmod u-w fichero.py
@@ -561,7 +561,7 @@ chmod u-r fichero.py
 chmod u-x fichero.py
 ```
 
--. *Quitar permisos al grupo*
+- *Quitar permisos al grupo*
 
 ```bash
 chmod g-w fichero.py
@@ -575,7 +575,7 @@ chmod g-r fichero.py
 chmod g-x fichero.py
 ```
 
--. *Quitar permisos a otros usarios*
+- *Quitar permisos a otros usarios*
 
 ```bash
 chmod o-w fichero.py
@@ -589,7 +589,7 @@ chmod o-r fichero.py
 chmod o-x fichero.py
 ```
 
--. *Añadir multiples permisos separando por coma*
+- *Añadir multiples permisos separando por coma*
 
 ```bash
 chmod u+x,g+r,o+w fichero.py
@@ -603,7 +603,7 @@ chmod u-x,g-r,o-w fichero.py
 chmod u-x,g+r,g+x fichero.py
 ```
 
--. *Establecer permisos de lectura y escritura y ejecucion para todos los usuarios en el ficheros fichero.py **a: Esto significa "todos", que incluye al usuario propietario, al grupo y a otros usuarios.***
+- *Establecer permisos de lectura y escritura y ejecucion para todos los usuarios en el ficheros fichero.py **a: Esto significa "todos", que incluye al usuario propietario, al grupo y a otros usuarios.***
 
 ```bash
 chmod a=rwx fichero.py
@@ -617,6 +617,7 @@ chmod a=rw fichero.py
 chmod a=r fichero.py
 ```
 
+> [!TIP]
 > *Los permisos en Linux se pueden representar en forma binaria, pero la representación binaria se convierte a decimal para su uso con el comando chmod.*
 
 1. *`r (lectura)` se representa como `4` en decimal, `100` en binario.*
@@ -633,33 +634,33 @@ chmod a=r fichero.py
 
 > *En este caso, `7` `(4+2+1)` en decimal representa `rwx` en binario para el propietario, y `4` en decimal representa `r--` en binario para el grupo y otros. `-rwxr--r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`*
 
-1. `000` es igual a `---` (ningún permiso)
-2. `001` es igual a `--x` (permiso de ejecución)
-3. `010` es igual a `-w-` (permiso de escritura)
-4. `011` es igual a `-wx` (permisos de escritura y ejecución)
-5. `100` es igual a `r--` (permiso de lectura)
-6. `101` es igual a `r-x` (permisos de lectura y ejecución)
-7. `110` es igual a `rw-` (permisos de lectura y escritura)
-8. `111` es igual a `rwx` (permisos de lectura, escritura y ejecución)
+1. *`000` es igual a `---` (ningún permiso)*
+2. *`001` es igual a `--x` (permiso de ejecución)*
+3. *`010` es igual a `-w-` (permiso de escritura)*
+4. *`011` es igual a `-wx` (permisos de escritura y ejecución)*
+5. *`100` es igual a `r--` (permiso de lectura)*
+6. *`101` es igual a `r-x` (permisos de lectura y ejecución)*
+7. *`110` es igual a `rw-` (permisos de lectura y escritura)*
+8. *`111` es igual a `rwx` (permisos de lectura, escritura y ejecución)*
 
-| Decimal | Binario |
-| ------- | ------- |
-| 0       | 0000    |
-| 1       | 0001    |
-| 2       | 0010    |
-| 3       | 0011    |
-| 4       | 0100    |
-| 5       | 0101    |
-| 6       | 0110    |
-| 7       | 0111    |
-| 8       | 1000    |
-| 9       | 1001    |
-| 10      | 1010    |
-| 11      | 1011    |
-| 12      | 1100    |
-| 13      | 1101    |
-| 14      | 1110    |
-| 15      | 1111    |
+| *Decimal* | *Binario* |
+| --------- | --------- |
+| *0*       | *0000*    |
+| *1*       | *0001*    |
+| *2*       | *0010*    |
+| *3*       | *0011*    |
+| *4*       | *0100*    |
+| *5*       | *0101*    |
+| *6*       | *0110*    |
+| *7*       | *0111*    |
+| *8*       | *1000*    |
+| *9*       | *1001*    |
+| *10*      | *1010*    |
+| *11*      | *1011*    |
+| *12*      | *1100*    |
+| *13*      | *1101*    |
+| *14*      | *1110*    |
+| *15*      | *1111*    |
 
 - *Los siguientes tres caracteres `---` representan los permisos del grupo del ficheros. Al igual que el propietario, el grupo no tiene permisos de lectura, escritura ni ejecución.*
 
@@ -683,7 +684,7 @@ chmod a=r fichero.py
 
 1. *Cambiar el permiso de todos los ficheros de un directorio de forma recursiva*
 
-   - *chmod tiene la opción recursiva que le permite cambiar los permisos de todos los ficheros de un directorio y sus subdirectorios.*_
+   - *chmod tiene la opción recursiva que le permite cambiar los permisos de todos los ficheros de un directorio y sus subdirectorios.*
 
    ```bash
    chmod -R 755 directorio
@@ -795,7 +796,7 @@ ln -s ficheros.py enlace_simbolico.py
 ln --symbolic fichero.py enlace_simbolico.py
 ```
 
-**output**: `lrwxrwxrwx 1 daniel daniel 20 feb  2 13:03 enlace_simbolico.py -> ./directorio/fichero.py`
+**output:** `lrwxrwxrwx 1 daniel daniel 20 feb  2 13:03 enlace_simbolico.py -> ./directorio/fichero.py`
 
 *`l` significa que es un enlace simbólico.*
 
@@ -839,13 +840,13 @@ ln --symbolic fichero.py enlace_simbolico.py
 
 **Enlaces duros:**
 
-1. **Backup de ficheros**: *Los enlaces duros pueden ser útiles para hacer copias de seguridad de ficheros. Si creas un enlace duro a un ficheros y luego modificas el ficheros, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos.*
+1. **Backup de ficheros:** *Los enlaces duros pueden ser útiles para hacer copias de seguridad de ficheros. Si creas un enlace duro a un ficheros y luego modificas el ficheros, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos.*
 
 **Enlaces simbólicos:**
 
-1. **Versionado de software**: *Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico.*
+1. **Versionado de software:** *Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico.*
 
-2. **Crear accesos rápidos**: *Los enlaces simbólicos pueden actuar como accesos rápidos a ficheros o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un ficheros de configuración en tu directorio de inicio para un acceso rápido.*
+2. **Crear accesos rápidos:** *Los enlaces simbólicos pueden actuar como accesos rápidos a ficheros o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un ficheros de configuración en tu directorio de inicio para un acceso rápido.*
 
 > *Recuerda que los enlaces duros no pueden referirse a directorios ni pueden cruzar sistemas de ficheros, mientras que los enlaces simbólicos pueden hacer ambas cosas.*
 
@@ -857,31 +858,31 @@ ln --symbolic fichero.py enlace_simbolico.py
 
 - *cURL soporta una amplia variedad de protocolos, incluyendo HTTP, HTTPS, FTP, FTPS, SFTP, SCP, LDAP, LDAPS, DICT, TELNET, FILE, IMAP, POP3, SMTP y otros.*
 
-1. **Hacer una solicitud HTTP GET**: *Este es el uso más básico de cURL. Simplemente especifica la URL a la que quieres hacer la solicitud.*
+1. **Hacer una solicitud HTTP GET:** *Este es el uso más básico de cURL. Simplemente especifica la URL a la que quieres hacer la solicitud.*
 
    ```bash
    curl https://www.example.com
    ```
 
-2. **Hacer una solicitud HTTP POST**: *Puedes usar la opción `-d` (o `--data`) para enviar datos como parte de una solicitud POST.El `-X` en cURL se utiliza para especificar un método de solicitud personalizado cuando se comunica con un servidor HTTP. Por ejemplo, puedes usar `-X POST` para hacer una solicitud POST o `-X DELETE` para hacer una solicitud DELETE.*
+2. **Hacer una solicitud HTTP POST:** *Puedes usar la opción `-d` (o `--data`) para enviar datos como parte de una solicitud POST.El `-X` en cURL se utiliza para especificar un método de solicitud personalizado cuando se comunica con un servidor HTTP. Por ejemplo, puedes usar `-X POST` para hacer una solicitud POST o `-X DELETE` para hacer una solicitud DELETE.*
 
    ```bash
    curl -d "param1=value1&param2=value2" -X POST https://www.example.com
    ```
 
-3. **Enviar un ficheros como parte de una solicitud POST**: *Puedes usar la opción `-F` (o `--form`) para enviar un ficheros como parte de una solicitud POST.*
+3. **Enviar un ficheros como parte de una solicitud POST:** *Puedes usar la opción `-F` (o `--form`) para enviar un ficheros como parte de una solicitud POST.*
 
    ```bash
    curl -F "file=@/path/to/file" https://www.example.com
    ```
 
-4. **Guardar la salida a un ficheros**: *Puedes usar la opción `-o` (o `--output`) para guardar la salida de cURL a un ficheros.*
+4. **Guardar la salida a un ficheros:** *Puedes usar la opción `-o` (o `--output`) para guardar la salida de cURL a un ficheros.*
 
    ```bash
    curl -o output.html https://www.example.com
    ```
 
-5. **Enviar encabezados personalizados**: *Puedes usar la opción `-H` (o `--header`) para enviar encabezados personalizados.*
+5. **Enviar encabezados personalizados:** *Puedes usar la opción `-H` (o `--header`) para enviar encabezados personalizados.*
 
    ```bash
    curl -H "Content-Type: application/json" https://www.example.com
